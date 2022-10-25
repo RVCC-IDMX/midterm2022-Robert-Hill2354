@@ -11,7 +11,7 @@ main{
       flex-direction: column;
       align-items: center;
       grid-template-columns:.25fr 3fr ;
-      background-color: rgb(17,173,44);
+      background-color: rgb(12,250,53);
       
     }
 
@@ -19,31 +19,42 @@ main{
       font-family: 'Noto Sans'  ;
       text-align:left;
       color: rgb(17,30,173);
-      background-color:rgb(12,250,53) ;
       grid-column: 2/-2;
       margin-left: 100px;
     
   
      }
+     
 
   header img{
     max-width: 100%;
     align-items:right;
-    background-color:rgb(12,250,53) ;
+    margin-left: 50%;
 
   }
 
+  header h3{
+
+    font-family: 'Noto Sans'  ;
+    text-align:left;
+    color: rgb(17,30,173);
+    grid-column: 2/-2;
+    margin-left: 100px;
+
+
+  }
   header p{
 
-    font-family: 'Hind Siliguri';
+      font-family: 'Hind Siliguri';
       text-align: justify;
       color: rgb(17,30,173);
       display: flex;
       flex-direction: column;
       align-items: center;
       grid-column: 3/-3;
-      margin-left: 4%;
+      margin-left: 14%;
       margin-right: 4%;
+  
   }
 
 /*body*/
@@ -60,21 +71,24 @@ main{
       display: flex;
       flex-direction: column;
       align-items: center;
-      
+      grid-template-columns: 1fr 2fr;
 
     } 
 
     #hero img{
-      max-width: 100%;
+      max-width: 20%;
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 2%;
+
 
     }
     
     #hero p{
 
       align-items: center;
+
 
     }
 
@@ -98,7 +112,7 @@ main{
   }
 
 
-  ul{
+ #Bio ul{
       font-family: 'Hind Siliguri';
       color: rgb(17,30,173);
       text-align: left;
@@ -112,7 +126,7 @@ main{
 
 }
 
-    ol{
+   #portfolio ol{
 
       font-family: 'Hind Siliguri';
       color: rgb(17,30,173);
@@ -129,6 +143,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+    column-gap: 1em;
     
   }
 
@@ -137,6 +152,15 @@ main{
     grid-column: 1/-1;
   }
 
+  #testimonials p{
+    
+    font-family: 'Hind Siliguri';
+    color: rgb(17,30,173);
+    text-align: center;
+    display: flex;
+    display: inline-block;
+
+  }
 
   hr{
 
