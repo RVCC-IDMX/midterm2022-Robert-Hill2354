@@ -1,0 +1,152 @@
+/*Main Section*/
+main{
+    background: rgb(17,173,44);
+    max-width: 100%;
+    } 
+  
+/*Header*/  
+  header {
+
+      display: grid;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns:.25fr 3fr ;
+      background-color: rgb(17,173,44);
+      
+    }
+
+  header h1 {
+      font-family: 'Noto Sans'  ;
+      text-align:left;
+      color: rgb(17,30,173);
+      background-color:rgb(12,250,53) ;
+      grid-column: 2/-2;
+      margin-left: 100px;
+    
+  
+     }
+
+  header img{
+    max-width: 100%;
+    align-items:right;
+    background-color:rgb(12,250,53) ;
+
+  }
+
+  header p{
+
+    font-family: 'Hind Siliguri';
+      text-align: justify;
+      color: rgb(17,30,173);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-column: 3/-3;
+      margin-left: 4%;
+      margin-right: 4%;
+  }
+
+/*body*/
+  body{
+    background-color:rgb(12,250,53) ;
+    }
+
+  /*Hero Section*/
+  
+    #hero {
+      font-family: 'Hind Siliguri';
+      text-align: center;
+      color: rgb(17,30,173);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+
+    } 
+
+    #hero img{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    
+    #hero p{
+
+      align-items: center;
+
+    }
+
+  /* Bio and Portfolio*/
+
+  #Bio{
+
+    text-align: center;
+
+  }
+
+  h2 {
+    font-family: 'Noto Sans';
+    color:rgb(17,30,173);
+    background-color: rgb(12,250,53) ;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+  ul{
+      font-family: 'Hind Siliguri';
+      color: rgb(17,30,173);
+      text-align: left;
+      display: flex;
+      display: inline-block;
+    
+
+    }
+  #portfolio{
+  text-align: center;
+
+}
+
+    ol{
+
+      font-family: 'Hind Siliguri';
+      color: rgb(17,30,173);
+      text-align: left;
+      display: flex;
+      display: inline-block;
+
+    }
+
+  /*Testimonials*/
+
+  #testimonials{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    
+  }
+
+  #testimonials h2{
+
+    grid-column: 1/-1;
+  }
+
+
+  hr{
+
+    display:none;
+
+  }
+
+ /*Copyright Section*/
+  footer{
+    background-color: rgb(17,173,44);
+    text-align: center;
+
+  }
